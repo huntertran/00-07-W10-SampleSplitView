@@ -39,7 +39,7 @@ public sealed class SettingKey
      public static readonly SettingKey KeyName3 = new SettingKey("YourSettingKey3"); 
      public static readonly SettingKey KeyName4 = new SettingKey("YourSettingKey4"); 
  
-private SettingKey(string value) 
+     private SettingKey(string value) 
      { 
           Value = value; 
      } 
