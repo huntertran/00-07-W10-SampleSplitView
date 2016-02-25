@@ -1,4 +1,5 @@
 # W10-SampleSplitView
+Copyright: Tuan Tran Van
 Windows 10 SplitView Sample with MVVMLight and utilities codes
 
 # Introduction
