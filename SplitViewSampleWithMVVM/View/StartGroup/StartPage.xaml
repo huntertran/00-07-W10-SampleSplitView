@@ -162,15 +162,17 @@
                 </Grid>
             </SplitView.Pane>
 
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="300" />
-                </Grid.ColumnDefinitions>
+            <SplitView.Content>
+                  <Grid>
+                        <Grid.ColumnDefinitions>
+                              <ColumnDefinition Width="*" />
+                              <ColumnDefinition Width="300" />
+                        </Grid.ColumnDefinitions>
 
-                <Frame x:Name="MainFrame" Grid.Column="0" />
+                        <Frame x:Name="MainFrame" Grid.Column="0" />
 
-            </Grid>
+                  </Grid>
+            </SplitView.Content>
 
         </SplitView>
     </Grid>
